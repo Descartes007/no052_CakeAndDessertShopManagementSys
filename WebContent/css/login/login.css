@@ -1,0 +1,73 @@
+body, p, div, ul, li, h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url("../../images/login/bg.jpg");
+}
+
+#login {
+	width:833px;
+	height: 550px;
+	margin: 90px auto 0;
+	position: relative; 
+	
+}
+.left{
+	background:url(../../images/login/left.jpg);
+	width:318px;
+	height:550px;
+}
+.right{
+	background:url(../../images/login/right.jpg);
+	width:515px;
+	height:550px;
+	margin-left:318px;
+	margin-top:-550px;
+}
+
+#login form p {
+	text-align: center;
+}
+#userName {
+	background: url(../../images/login/user.png)  no-repeat;
+	width: 360px;
+	height: 50px;
+	border: solid #ccc 1px;
+	border-radius: 3px;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	padding-left: 32px;
+	padding-top: 5px;
+	margin-top: 200px;
+	margin-bottom: 30px;
+}
+
+#passWord {
+	background: url(../../images/login/pwd.png)  no-repeat;
+	width: 360px;
+	height: 50px;
+	border: solid #ccc 1px;
+	border-radius: 3px;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	padding-left: 32px;
+	margin-bottom: 30px;
+}
+
+#submit {
+	width: 360px;
+	height: 50px;
+	background: rgb(123, 174, 95);
+	border: solid #ccc 1px;
+	border-radius: 3px;
+}
+
+#submit:hover {
+	cursor: pointer;
+	background: #333333;
+	color:#fff;
+}

@@ -1,0 +1,283 @@
+
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+.gtco-heading{
+	
+	color:#333333;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */
+}
+img {
+  border-style: none;
+}
+
+a,
+a:hover,
+a:visited {
+  color: #000;
+  text-decoration: none;
+}
+* {
+  font-family: "Microsoft YaHei", PingFangSC-Regular, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+ul,
+li {
+  list-style-type: none;
+}
+
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: '';
+  overflow: hidden;
+}
+
+
+.text-center {
+  text-align: center;
+}
+.cursor {
+  cursor: pointer;
+}
+
+.page-footer {
+  width: 100%;
+  padding: 0.33rem 0.95rem 0.2rem 0.66rem;
+  border-top: 1px solid #c9c9c9;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  height:30px;
+  
+}
+.page-footer .business-logo {
+    margin-left:30px;
+    margin-top:20px;
+    width:160px;
+} 
+.page-footer .contact {
+  margin:20px 0px 20px 0px;
+  color:#333333;
+  text-align: center;
+  
+}
+.footer-center-en{
+	text-align: center;
+	font-size:10px;
+	color:#333333;
+}
+* {
+  -webkit-text-size-adjust: none;
+}
+.header-shadow {
+  -webkit-box-shadow: 0px 1px 12px 0px rgba(128, 113, 113, 0.3);
+  -moz-box-shadow: 0px 1px 12px 0px rgba(128, 113, 113, 0.3);
+  box-shadow: 0px 1px 12px 0px rgba(128, 113, 113, 0.3);
+  behavior: url(ie-css3.htc);
+  height:90px;
+  
+  
+}
+header {
+  position: relative;
+  width: 1260px;
+  height: 92px;
+  z-index: 99;
+  margin-top: -40px;
+  margin-bottom:40px;}
+header .nav-logo {
+  position: absolute;
+  left: 180px;
+  margin:20px 0px 0px 40px;
+  width: 190px;
+  
+}
+header .nav-menu {
+  position: absolute;
+  left: 460px;
+  bottom: 25px;
+}
+header .nav-menu .nav-a {
+  display: inline-block;
+  margin-right: 30px;
+  position: relative;
+  text-align: center;
+}
+header .nav-menu .nav-a:nth-child(1) {
+  margin-left: 5px;
+}
+header .nav-menu .nav-a:last-child {
+  margin-right: 20px;
+}
+header .nav-menu .nav-a span {
+  display: block;
+  text-align: center;
+  font-size: 15px;
+  color: #333333;
+}
+header .nav-menu .nav-a span:nth-child(2) {
+  position: relative;
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 8px;
+  color: #999999;
+}
+header .nav-menu .nav-a.active span {
+  color: #d3b145;
+}
+header .nav-menu .nav-a.active span:nth-child(2) {
+  color: #d3b145;
+}
+header .nav-menu .nav-a.active span:nth-child(2):after {
+  display: block;
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  width: 100%;
+  height: 2px;
+  background-color: #d3b145;
+}
+header .nav-cut-line {
+  position: absolute;
+  right: 250px;
+  bottom: 25px;
+  width: 3px;
+  height: 40px;
+}
+header .header-controller {
+  position: absolute;
+  right:-60px;
+  bottom: 25px;
+  height: 55px;
+  line-height: 66px;
+  padding-top: 0px;
+  font-size: 0;
+}
+header .header-controller .header-controller-login,
+header .header-controller .header-controller-register,
+header .header-controller .header-controller-position,
+header .header-controller .header-controller-cart {
+  display: inline-block;
+  margin-right: 25px;
+  cursor: pointer;
+}
+header .header-controller .header-controller-login:last-child,
+header .header-controller .header-controller-register:last-child,
+header .header-controller .header-controller-position:last-child,
+header .header-controller .header-controller-cart:last-child {
+  margin-right: 0px;
+}
+header .header-controller .header-controller-login .icon,
+header .header-controller .header-controller-register .icon,
+header .header-controller .header-controller-position .icon,
+header .header-controller .header-controller-cart .icon {
+  vertical-align: middle;
+}
+header .header-controller .header-controller-login .text,
+header .header-controller .header-controller-register .text,
+header .header-controller .header-controller-position .text,
+header .header-controller .header-controller-cart .text {
+  vertical-align: middle;
+  font-size: 15px;
+  color: #333333;
+}
+header .header-controller .header-controller-login {
+  position: relative;
+}
+header .header-controller .header-controller-login .icon {
+  width: 19px;
+  height: 19px;
+}
+header .header-controller .header-controller-register {
+  text-align: right;
+}
+header .header-controller .header-controller-register .icon {
+  width: 18px;
+  height: 18px;
+}
+header .header-controller .header-controller-position,
+header .header-controller .header-controller-login {
+  position: relative;
+  text-align: right;
+}
+header .header-controller .header-controller-position .icon-position,
+header .header-controller .header-controller-login .icon-position {
+  width: 14px;
+  height: 18px;
+  vertical-align: middle;
+}
+header .header-controller .header-controller-position .icon-down,
+header .header-controller .header-controller-login .icon-down {
+  width: 9px;
+  height: 9px;
+}
+
+header .header-controller-position:hover .area-list{ display: block}
+header .header-controller .header-controller-position .area-list .area-item:hover,
+header .header-controller .header-controller-login .area-list .area-item:hover,
+header .header-controller .header-controller-position .person-center-list .area-item:hover,
+header .header-controller .header-controller-login .person-center-list .area-item:hover,
+header .header-controller .header-controller-position .area-list .center-item:hover,
+header .header-controller .header-controller-login .area-list .center-item:hover,
+header .header-controller .header-controller-position .person-center-list .center-item:hover,
+header .header-controller .header-controller-login .person-center-list .center-item:hover,
+header .header-controller .header-controller-position .area-list .try-eat-item:hover,
+header .header-controller .header-controller-login .area-list .try-eat-item:hover,
+header .header-controller .header-controller-position .person-center-list .try-eat-item:hover,
+header .header-controller .header-controller-login .person-center-list .try-eat-item:hover {
+  color: #d3b145;
+}
+header .header-controller .header-controller-position .area-list .area-item:hover a,
+header .header-controller .header-controller-login .area-list .area-item:hover a,
+header .header-controller .header-controller-position .person-center-list .area-item:hover a,
+header .header-controller .header-controller-login .person-center-list .area-item:hover a,
+header .header-controller .header-controller-position .area-list .center-item:hover a,
+header .header-controller .header-controller-login .area-list .center-item:hover a,
+header .header-controller .header-controller-position .person-center-list .center-item:hover a,
+header .header-controller .header-controller-login .person-center-list .center-item:hover a,
+header .header-controller .header-controller-position .area-list .try-eat-item:hover a,
+header .header-controller .header-controller-login .area-list .try-eat-item:hover a,
+header .header-controller .header-controller-position .person-center-list .try-eat-item:hover a,
+header .header-controller .header-controller-login .person-center-list .try-eat-item:hover a {
+  color: #d3b145;
+}
+header .header-controller .header-controller-position .area-list,
+header .header-controller .header-controller-login .area-list {
+  right: -4px;
+}
+header .header-controller .header-controller-position .person-center-list,
+header .header-controller .header-controller-login .person-center-list {
+  right: -16px;
+}
+header .header-controller .header-controller-login:hover .login-center-list {
+  display: block;
+}
+header .header-controller .header-controller-cart {
+  text-align: right;
+  magrin-right:-10px;
+}
+header .header-controller .header-controller-cart .icon {
+  width: 23px;
+  height: 20px;
+}
