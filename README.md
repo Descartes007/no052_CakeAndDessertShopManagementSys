@@ -1,4 +1,4 @@
-<p><h1 align="center">基于JSP+Servlet实现的java蛋糕甜品商店管理系统</h1></p>
+<p><h1 align="center">基于JSP+Servlet实现的java蛋糕甜品商店管理系统【带报告】</h1></p>
 
 <p> 获取sql文件 QQ: 605739993 QQ群: 377586148 </p>
 
